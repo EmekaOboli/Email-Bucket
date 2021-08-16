@@ -44,13 +44,6 @@ def root_build():
         conn.commit()
         x = e.clipboard_clear()
         print(x)
-        
-#keep function for Flask admin 
-    # def select_db():
-        # cur.execute("SELECT * FROM email_List")
-        # y = cur.fetchall()
-        # print(y)
-        # print (get_list)
 
 
 #update button 
@@ -79,22 +72,7 @@ def root_build():
     drop_button2 = Button(root, text = ' feedback vote', fg="purple", bg="white", command=drop_box_ratings()) 
     drop_button2.grid(root, column=3)
 
-# keep button for Flaskadmin
-    # mybutton2 = Button(root, text = "get records", fg="purple", bg="white", width=15, command=select_db)
-    # mybutton2.pack()
 
-
-    # for row in cur.execute("SELECT * FROM email_List"):
-        # print(row)
-    # conn.fetchall()
-    # OR
-
-    # cur.execute(SELETE * oid FROM email_List)
-    # records = cur.fetchall()
-    # print(records)
-
-    # primary key: oid 
-    # usage: "SELECT * oid FROM email_List"
     conn.commit()
     
     # conn.close()
