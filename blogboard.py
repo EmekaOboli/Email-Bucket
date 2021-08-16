@@ -58,10 +58,10 @@ def root_build():
     update_button.pack()
 
 # dropbox options function
-    options = ["good🙂"]
-    options1 = ["indifferent😏"]
-    options2 = ["bad🙁"]
-    options3 = ["no comment🤐"]
+    options = ["good"]
+    options1 = ["indifferent"]
+    options2 = ["bad"]
+    options3 = ["no comment"]
 
     # clicked = IntVar()
     clicked = StringVar()
@@ -102,6 +102,6 @@ def root_build():
     root.mainloop()
 
 if __name__ == '__main__':
-    app.run(debug =True, use_reloader=True, port = 80)
+    app.run()
 
 
