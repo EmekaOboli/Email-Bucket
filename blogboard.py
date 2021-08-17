@@ -50,29 +50,7 @@ def root_build():
     update_button = Button(root, text ="Submit email!", fg="purple", bg="white", width=15, command=insert_db)
     update_button.pack()
 
-# dropbox options function
-    options = ["good"]
-    options1 = ["indifferent"]
-    options2 = ["bad"]
-    options3 = ["no comment"]
-
-    # clicked = IntVar()
-    clicked = StringVar()
-    clicked.set(options([0])
-
-
-    def drop_box_ratings():
-        label_drop = Label(root, text=clicked.get(),fg="purple", bg="white")
-        label_drop.grid(root, column=1, columnspan=6)
-
-
-    drop_button = OptionMenu(root, clicked, options, options1, options2, options3)
-    drop_button.grid(root, column=2)
-
-    drop_button2 = Button(root, text = ' feedback vote', fg="purple", bg="white", command=drop_box_ratings()) 
-    drop_button2.grid(root, column=3)
-
-
+# commit to memory in database
     conn.commit()
     
     # conn.close()
