@@ -17,5 +17,7 @@ Source: www.wikipedia.com
 
 Project: 
 
-This Module or python script file uses Flask as a web frame for Tkinter Gaphic User Interface (GUI) and Sqlite3 database. The entry box collects emails for database storage when the 'Submit' button is clicked. A message pops below after the 'submit' button click as well
+This Module or python script file uses Flask as a web frame for Tkinter Gaphic User Interface (GUI) and Sqlite3 database. The entry box collects emails for database storage when the 'Submit' button is clicked. A message pops below after the 'submit' button click as well.
+
+This Python module was written by EMEKA ONYEBUCHI OBOLI
 
