@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-@app.route("/blogboard")
+@app.route("/EmailBucket")
 def root_build():    
     root = Tk()
     root.title("{Lawplug}")
@@ -17,7 +17,7 @@ def root_build():
     
     # cur.execute("CREATE TABLE email_List(emails TEXT)")
     
-    emeka_txt = Label(root, text="BlogBoard" , fg='purple' )
+    emeka_txt = Label(root, text="EmailBucket" , fg='purple' )
     emeka_txt.pack()
 
     copyright_txt = Label(root, text='copy right ✒ 2021', fg='purple')
