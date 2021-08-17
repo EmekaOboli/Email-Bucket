@@ -15,6 +15,7 @@ Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python int
 
 Source: www.wikipedia.com 
 
-Project
+Project: 
+
 This Module or python script file uses Flask as a web frame for Tkinter Gaphic User Interface (GUI) and Sqlite3 database. The entry box collects emails for database storage when the 'Submit' button is clicked. A message pops below after the 'submit' button click as well
 
