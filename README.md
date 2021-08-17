@@ -1,4 +1,4 @@
-# Lawplug-BlogBoard
+# Email Bucket
 Web app project using Flask, TKinter and SQLite3 in Python
 
 PYTHON
